@@ -15,6 +15,7 @@
 		187EA99B1CE0758E00820818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187EA9991CE0758E00820818 /* LaunchScreen.storyboard */; };
 		187EA9A61CE0758E00820818 /* CAShapeLayerAndUIBezierPathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187EA9A51CE0758E00820818 /* CAShapeLayerAndUIBezierPathTests.m */; };
 		187EA9B11CE0758E00820818 /* CAShapeLayerAndUIBezierPathUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187EA9B01CE0758E00820818 /* CAShapeLayerAndUIBezierPathUITests.m */; };
+		187EA9C01CE076D100820818 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187EA9BF1CE076D100820818 /* MyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		187EA9AC1CE0758E00820818 /* CAShapeLayerAndUIBezierPathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAShapeLayerAndUIBezierPathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187EA9B01CE0758E00820818 /* CAShapeLayerAndUIBezierPathUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerAndUIBezierPathUITests.m; sourceTree = "<group>"; };
 		187EA9B21CE0758E00820818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187EA9BE1CE076D100820818 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		187EA9BF1CE076D100820818 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				187EA98F1CE0758E00820818 /* AppDelegate.m */,
 				187EA9911CE0758E00820818 /* ViewController.h */,
 				187EA9921CE0758E00820818 /* ViewController.m */,
+				187EA9BE1CE076D100820818 /* MyView.h */,
+				187EA9BF1CE076D100820818 /* MyView.m */,
 				187EA9941CE0758E00820818 /* Main.storyboard */,
 				187EA9971CE0758E00820818 /* Assets.xcassets */,
 				187EA9991CE0758E00820818 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187EA9C01CE076D100820818 /* MyView.m in Sources */,
 				187EA9931CE0758E00820818 /* ViewController.m in Sources */,
 				187EA9901CE0758E00820818 /* AppDelegate.m in Sources */,
 				187EA98D1CE0758E00820818 /* main.m in Sources */,
